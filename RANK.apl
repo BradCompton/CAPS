@@ -1,0 +1,1 @@
+﻿    ∇ Z←RANK X;P[1]   ⍝Give rank of ⍵, using 1224 ranking[2]   ⍝B. Compton, 25-26 Feb 2015 (a visit to Thomas & Thomas!)[3]   [4]   [5]   [6]    X←X[P←⍒X][7]    Z←(X⍳X)[⍋P]    ∇

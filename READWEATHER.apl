@@ -1,0 +1,1 @@
+﻿    ∇ READWEATHER;head[1]   [2]    ⎕←'Reading weather data...' ⋄ FLUSH[3]    weather←(1,⎕TCHT) MATIN 'G:\CAPSDOCS\SETTINGS\WEATHER\WEATHER.TXT'[4]    weatherhead←head    ∇

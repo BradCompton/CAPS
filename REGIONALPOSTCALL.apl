@@ -1,0 +1,1 @@
+﻿    ∇ REGIONALPOSTCALL O;framework;calledfromcaps[1]   ⍝Call CAPS regional post-processing as part of cluster run, using temporary parameters directory ⍵[2]   ⍝B. Compton, 21 Mar 2014 (from POSTCALL)[3]   [4]   [5]   [6]    framework←'caps'[7]    calledfromcaps←1[8]    INITO O[9]    REGIONALPOST    ∇

@@ -1,0 +1,1 @@
+﻿    ∇ POSTCALL O;framework[1]   ⍝Call CAPS Post-processing as part of cluster run, using temporary parameters directory ⍵[2]   ⍝B. Compton, 24 Sep 2012[3]   [4]   [5]   [6]    framework←'caps'[7]    INITO O[8]    POST    ∇

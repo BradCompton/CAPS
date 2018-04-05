@@ -1,0 +1,1 @@
+﻿    ∇ Z←RANGE X[1]   ⍝Give all cells in range r1,c1 .. r2,c2 ⍵[2]   ⍝Use with blocks = in parameters.par, e.g. blocks = RANGE 15 17 40 46[3]   ⍝B. Compton, 1 Jun 2010[4]   [5]   [6]    Z←↑,(X[1]+0,⍳X[3]-X[1])∘.,X[2]+0,⍳X[4]-X[2]    ∇

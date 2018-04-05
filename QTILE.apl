@@ -1,0 +1,1 @@
+﻿    ∇ Z←Q QTILE X[1]   ⍝Return quantiles ⍺ of ⍵[2]   ⍝Matches S+ and JMP function (linear interpolation)[3]   [4]    ⍎(0=⎕NC'Q')/'Q←.1×⍳10'[5]    X←(X≠MV)/X                 ⍝Drop missing values[6]    Z←(⍴Q)⍴0 ⋄ →(0∊⍴X)/0[7]    X←,X[8]    Z←X[⍋X][9]    Q←1+(¯1+⍴Z)×Q[10]   Z←Z[⌊Q]+(Z[⌈Q]-Z[⌊Q])×Q-⌊Q    ∇

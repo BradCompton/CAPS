@@ -1,0 +1,1 @@
+﻿    ∇ Z←X PULL L[1]   ⍝Pull item ⍵ from .cpj text ⍺[2]   ⍝Items are enclosed in braces[3]   ⍝B. Compton, 21 Jun 2012[4]   [5]   [6]    Z←FRDBL(2+⍴T)↓,(^/X[;⍳⍴T]=((1↑⍴X),⍴T)⍴T←'{{',L,'}}')⌿X    ∇

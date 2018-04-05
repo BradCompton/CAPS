@@ -1,0 +1,1 @@
+﻿    ∇ Z←I QUANTILE X;Q;J;A[1]   ⍝Rescale ⍵ by ⍺ quantiles (use percentiles by default)[2]   ⍝Returns globals qtiles and qt[3]   [4]    ⍎(0=⎕NC'I')/'I←100'[5]    →(0∊⍴Z←X)/0[6]    Q←qtiles←(qt←(÷I)×¯1+⍳I) QTILE Z[7]    A←J←0[8]   L1:→((⍴qt)<J←J+1)/L2  ⍝   For each n-tile,[9]    A←A+Z≥Q[J][10]   →L1[11]  L2:Z←qt[A]    ∇

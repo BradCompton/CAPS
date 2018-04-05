@@ -1,0 +1,1 @@
+﻿    ∇ Z←Q QTILEZ X;P[1]   ⍝Return quantiles 1⊃⍺ of ⍵, but all zeros are pushed into 1st group if 2⊃⍺[2]   ⍝Subroutine of BENCH, used to prevent severe skewing of metrics like TR[3]   ⍝Warning: result isn't necessary interpretable as quantiles any more![4]   ⍝B. Compton, 7 Feb 2011[5]   [6]    Q P ← Q[7]    Z←(P/0),(P↓Q) QTILE ((~P)∨X≠0)/X    ∇

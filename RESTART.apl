@@ -1,0 +1,1 @@
+﻿    ∇ RESTART[1]   ⍝Reset after break[2]   [3]    break←''[4]    SETBREAK[5]    ⎕INBUF '→⎕LC',⎕TCNL    ∇

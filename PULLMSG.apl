@@ -1,0 +1,1 @@
+﻿    ∇ Z←PULLMSG X[1]   ⍝Pull message from .cpj text ⍺[2]   ⍝Message is on lines between {{MESSAGE}}: and {{END_MESSAGE}}[3]   ⍝Remove line breaks - put it all on one line[4]   ⍝B. Compton, 21 Jun 2012[5]   [6]   [7]    X←((1++/^\~(FRDBL¨↓X)≡¨⊂'{{MESSAGE}}:'),0)↓X[8]    Z←(~(FRDBL¨↓X)≡¨⊂'{{END_MESSAGE}}')⌿X[9]    Z←' ' MTOV Z    ∇

@@ -1,0 +1,1 @@
+﻿    ∇ Z←REPATH X;T;P[1]   ⍝Add temporary path to ⍵ if it doesn't have one, stripping anything before the <[2]   ⍝Needed for SCRIPT_ functions[3]   ⍝B. Compton, 18 Sep 2014[4]   [5]   [6]    P←(cluster+1)⊃pathW pathI[7]    Z←P PATH (⌽^\⌽X≠'<')/X    ∇

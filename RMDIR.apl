@@ -1,0 +1,1 @@
+﻿    ∇ RMDIR X[1]   ⍝Remove directory ⍵ and all subdirectories and files[2]   ⍝B. Compton, 2 Jul 2012[3]   [4]   [5]   [6]    3 ⎕CMD 'rmdir ',X,' /s /q'    ∇

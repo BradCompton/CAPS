@@ -1,0 +1,1 @@
+﻿    ∇ PURGECSE P;X;B[1]   ⍝Purge CSE project #⍵ - gets CSE(⍵), CSE(⍵-1)-CAPS, etc.[2]   ⍝B. Compton, 29 Jul 2013[3]   [4]   [5]    X←(MATIN pathA,'projects.txt')[;1][6]    B←(⊂'CSE(')≡¨4↑¨X[7]    →(~∨/B)/0[8]    PURGEPROJECT¨(P=⊃,/⎕FI¨B/(+/¨^\¨(4↓¨X)∊¨⊂'0123456789')↑¨4↓¨X)/B/X    ∇

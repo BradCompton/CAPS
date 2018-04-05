@@ -1,0 +1,1 @@
+﻿    ∇ Z←REPLACESYM X[1]   ⍝Replace standard mathematical symbols with APL functions[2]   ⍝Note: use POWER so multiple calls don't lead to ^ → * → ×[3]   ⍝B. Compton, 13 Oct 2011 (consolidated from RUN, READPARS, etc.)[4]   [5]   [6]   [7]    Z←LOWTOHIX ('|=|←|*|×|/|÷|^| POWER |',⎕TCHT,'| ') TEXTREPL X    ∇

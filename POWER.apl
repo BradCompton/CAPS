@@ -1,0 +1,1 @@
+﻿    ∇ Z←A POWER B[1]   ⍝Exponentation[2]   [3]   ⍎(0=⎕NC'A')/'A←*1'      ⍝Monadic power gives e*⍵[4]   Z←A B REMV A*1 UNMV B    ∇

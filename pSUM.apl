@@ -1,0 +1,1 @@
+﻿    ∇ Z←P pSUM V[1]   ⍝Sum of ⍵ partitioned by ⍺[2]   [3]    Z←(1⊖P)⌿+⍀V[4]    Z←Z-((⍴⍴Z)↑¯1)↓0⍪Z    ∇

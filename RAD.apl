@@ -1,0 +1,1 @@
+﻿    ∇ Z←RAD D[1]   ⍝Convert degrees to radians[2]   [3]    Z←○D÷180    ∇

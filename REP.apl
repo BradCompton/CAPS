@@ -1,0 +1,1 @@
+﻿    ∇ nnn REP xxx;iii[1]   [2]    iii←0[3]   L1:→(nnn<iii←iii+1)/0[4]    ⍎xxx[5]    →L1    ∇

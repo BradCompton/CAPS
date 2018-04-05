@@ -1,0 +1,1 @@
+﻿    ∇ Z←REPORTPORT P;F;X[1]   ⍝Report port # from anthill\ports.par, if it exists[2]   ⍝B. Compton, 13 Apr 2012[3]   [4]   [5]    Z←'port ',⍕P[6]    →(~IFEXISTS F←pathA PATH 'ports.par')/0[7]    X←(0,⎕TCHT) MATIN F[8]    Z←Z,', extent = ',⊃(X[;2],⊂'unknown')[X[;1]⍳P]    ∇

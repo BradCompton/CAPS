@@ -1,0 +1,1 @@
+﻿    ∇ Z←READHEAD F;N[1]   ⍝Read header of text file ⍵[2]   [3]    F ⎕XNTIE N←-1+0⌈⌈/|⎕XNNUMS[4]    Z←1 NGET N,1000[5]    Z←(Z≠'''')/Z                               ⍝Drop all quotes - we ignore them[6]    Z←1↓MTOV (∨/Z≠' ')⌿Z←LJUST(⍴Z)↑(+/^\';'≠Z)⌽((⍴Z)⍴' '),Z←VTOM ⎕TCNL,Z      ⍝Semicolons mark comments[7]    Z←(¯1+Z⍳⎕TCNL)↑Z[8]    ⎕NUNTIE N    ∇

@@ -1,0 +1,1 @@
+﻿    ∇ Z←C READGRID G;H[1]   ⍝Read grid ⍵; disable caching if ⍺[2]   ⍝This version is just a cover for READBLOCK[3]   ⍝B. Compton, 1 Nov 2013 (old version → ∆READGRID)[4]   ⍝8 Dec 2013: suppress cacing in GRIDDESCRIBE too[5]   [6]   [7]   [8]    ⍎(0=⎕NC'C')/'C←0'[9]    H←(0 0,C) GRIDDESCRIBE G[10]   Z←H READBLOCK (⊂G),(1 1,H[2 1]),0,C    ∇
