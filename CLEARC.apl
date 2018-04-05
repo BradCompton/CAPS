@@ -1,0 +1,1 @@
+﻿    ∇ CLEARC;X[1]   [2]    X←('c'=(LJUST⌽⎕NL 3)[;1])⌿⎕NL 3[3]    ⎕←'Clearing: ',DEB,' ',X[4]    X←⎕EX X    ∇

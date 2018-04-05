@@ -1,0 +1,1 @@
+﻿    ∇ DOCOMPACTNESS W;F;Q[1]   [2]   [3]    INIT[4]    W[5 6 7 8]←MER2CELLS W[5 6 7 8]                ⍝Convert MER to cells[5]    W[3 4]←0+1+(FINDCELL W[3 4])-W[5 6]       ⍝Watershed outflow in terms of grid[6]    F←READBLOCK (⊂'D:\CAPS\SOURCE\FLOW'),W[5 6 7 8][7]   [8]    ⎕←'Compactness: ',⍕COMPACTNESS Q←F POINTSHED W[3 4][9]   [10]      ∇

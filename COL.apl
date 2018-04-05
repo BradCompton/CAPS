@@ -1,0 +1,1 @@
+﻿    ∇ Z←X COL N[1]   ⍝Return column numbers of ⍵ in list ⍺[2]   ⍝Use to index table columns[3]   ⍝B. Compton, 13 Apr 2011[4]   [5]   [6]    ⍎(2>≡X)/'X←FRDBL¨↓MATRIFY X'[7]    ⍎(2>≡N)/'N←FRDBL¨↓MATRIFY N'[8]    Z←(Z≤⍴X)×Z←(FRDBL¨TOUPPER¨X)⍳FRDBL¨TOUPPER N[9]    ⍎((,1)≡⍴Z)/'Z←⍬⍴Z'    ∇

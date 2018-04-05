@@ -1,0 +1,1 @@
+﻿    ∇ Z←DISPCLIP X;Q[1]   ⍝Display ⍵ clipped to non-zero rectangle[2]   [3]    Q←CLIP X[4]    Z←X[1⊃Q;2⊃Q]    ∇

@@ -1,0 +1,1 @@
+﻿    ∇ Z←COMMON A[1]   ⍝Give Least Common Multiple of values in ⍵[2]   [3]    Z←,A[4]   L1:→(1=⍴Z)/0[5]    Z←((Z⍳Z)=⍳⍴Z)/Z←(Z≠0)/Z←,((⍳⍴Z)∘.>⍳⍴Z)×Z∘.LCM Z[6]    →L1    ∇

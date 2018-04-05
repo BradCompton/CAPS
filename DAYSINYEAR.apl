@@ -1,0 +1,1 @@
+﻿    ∇ Z←DAYSINYEAR X;S[1]   ⍝ RETURN NUMBER OF DAYS IN YEAR OF DATE ⍵[2]   X←(¯2↑1,⍴X)⍴X[3]   Z←X[;2]++/S↑X[;1]⌽(S⍴0),(S←(1↑⍴X),13)⍴0 31 28 31 30 31 30 31 31 30 31 30 31[4]   Z←(2↑(⍴Z), 1 1)⍴Z←Z+(IFLEAP X[;3])^X[;1]>2    ∇

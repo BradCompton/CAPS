@@ -1,0 +1,1 @@
+﻿    ∇ Z←A COLON B[1]   ⍝Do R-style n:m[2]   ⍝Pass through rest of vectors to all stuff like 1 2 5:10 11 12,20[3]   ⍝B. Compton, 14 Apr 2011[4]   [5]   [6]    Z←(¯1↓A),((¯1+¯1↑A)↓⍳1↑B),1↓B    ∇

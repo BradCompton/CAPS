@@ -1,0 +1,1 @@
+﻿    ∇ Z←A DIVMV B[1]   ⍝⍺÷⍵, but 0÷0 = MV[2]   [3]    Z←(MV×B=0)+(B≠0)×A DIV B+B=0    ∇

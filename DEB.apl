@@ -1,0 +1,1 @@
+﻿    ∇  Z←DEB A;T[1]    ⍝Deletes leading, trailing, and multiple imbedded blanks in ⍵[2]    ⍝ The argument may be a character scalar, vector, or matrix.[3]    ⍝ The result is a character vector or matrix.[4]    →(T←''⍴(⎕STPTR'Z A T')⎕CALL DEB∆OBJ)↓0[5]    ⎕ERROR(5 7 8⍳T)⊃'RANK ERROR' 'VALUE ERROR' 'WS FULL' 'DOMAIN ERROR'[6]    ⍝ Copyright (c) 1988, 1994 Jim Weigang    ∇

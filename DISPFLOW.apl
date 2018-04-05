@@ -1,0 +1,1 @@
+﻿    ∇ Z←DISPFLOW F[1]   ⍝display flow into focal cell TEMPORARY FUNCTION ***[2]   [3]    Z←3 3⍴F[2 3 4 1 1 5 8 7 6][4]    Z[2;2]←0    ∇

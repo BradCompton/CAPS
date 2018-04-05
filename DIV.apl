@@ -1,0 +1,1 @@
+﻿    ∇ Z←A DIV B[1]   ⍝⍺÷⍵, but 0÷0 = 0 instead of 1[2]   [3]   Z←A B REMV (B≠0)×A÷1 UNMV B    ∇

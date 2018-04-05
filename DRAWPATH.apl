@@ -1,0 +1,1 @@
+﻿    ∇ Z←P DRAWPATH R[1]   ⍝Draw paths lines; subroutine of FINDPATHS[2]   ⍝B. Compton, Oct 2012-11 Feb 2013[3]   [4]   [5]   [6]   →(0=4⊃P)/0         ⍝If drawing lines,[7]   (pathQ,'results\paths.txt') GENMORELINES P[3],↑1 FINDPOINT¨↓R[8]   points←points⍪P[3 1 2 7],(1 FINDPOINT 5⊃P),1 FINDPOINT 6⊃P    ∇

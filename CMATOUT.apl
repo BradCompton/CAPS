@@ -1,0 +1,1 @@
+﻿    ∇ X CMATOUT F;J[1]   ⍝Write comma-delimited numeric matrix ⍺ to file ⍵[2]   [3]   [4]    X TMATOUT F ','    ∇

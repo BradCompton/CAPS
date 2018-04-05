@@ -1,0 +1,1 @@
+﻿    ∇ Z←DISCLOSEALL X[1]   ⍝Robust cover for ⊃,/[2]   ⍝B. Compton, 30 Sep 2014[3]   [4]   [5]   [6]    →(0=⍴Z←X)/0[7]    Z←⊃,/X    ∇

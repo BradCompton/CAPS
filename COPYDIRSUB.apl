@@ -1,0 +1,1 @@
+﻿    ∇ A COPYDIRSUB B[1]   ⍝Copy files (and subdirectories) from path ⍺ to ⍵[2]   ⍝B. Compton, 2 Jul 2012 (from COPYDIR)[3]   ⍝5 Feb 2013: add quotes around the target so & doesn't mess it up![4]   [5]   [6]   [7]    3 ⎕CMD 'xcopy ',A,'*.* "',B,'" /y /e'    ∇

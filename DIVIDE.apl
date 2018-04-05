@@ -1,0 +1,1 @@
+﻿    ∇ Z←A DIVIDE B[1]   ⍝⍺÷⍵, but anything ÷0 throws an error[2]   [3]   Z←A×÷B    ∇

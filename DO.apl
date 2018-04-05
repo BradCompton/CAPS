@@ -1,0 +1,1 @@
+﻿    ∇ DO[1]   [2]   'one' TEST 5 ⋄ 'red' TESTS 3 ⋄ 'green' TESTS 5 ⋄ 'two' TEST 3 ⋄ 'blue' TESTS 8[3]   'bigtest' 4 TESTS 1000[4]   [5]   ⍝TEST 20 ⋄ TESTS 25 ⋄ 'BIG' TESTS 500    ∇

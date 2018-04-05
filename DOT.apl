@@ -1,0 +1,1 @@
+﻿    ∇ DOT[1]   [2]    ⍎(0=⎕NC'dot')/'dot←0'[3]    ⍞←'.',(0=dot←⎕PW|dot←dot+1)/⎕TCNL[4]    FLUSH    ∇

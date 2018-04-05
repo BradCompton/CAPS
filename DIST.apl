@@ -1,0 +1,1 @@
+﻿    ∇ Z←DIST N[1]   ⍝Distance from each cell to center point of square ⍵×⍵ matrix[2]   [3]    Z←(Z∘.+Z←((⌈N÷2)-⍳N)*2)*.5    ∇

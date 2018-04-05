@@ -1,0 +1,1 @@
+﻿    ∇ Z←COUNTLINES F[1]   ⍝Count the lines in text file ⍵[2]   ⍝B. Compton, 25 Sep 2012[3]   [4]   [5]   [6]    →(~IFEXISTS F)/Z←0[7]    Z←+/⎕TCNL=NREAD F    ∇

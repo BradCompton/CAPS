@@ -1,0 +1,1 @@
+﻿    ∇ CLEANUP;T[1]   ⍝Clean up all active grid server connections[2]   ⍝B. Compton, 10 and 30 Sep 2013[3]   [4]   [5]   [6]   [7]    ∆CLEANUP[8]    T←⎕EX 'connections activeconnection'[9]   [10]   →(0=⎕NC'mosaic')/0             ⍝If mosaic exists,[11]   mosaic←0⌿mosaic[12]   mosaicwindow←⍳0[13]   referencewindow←⍳0    ∇

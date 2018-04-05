@@ -1,0 +1,1 @@
+﻿    ∇  Z←DIB A;T[1]    ⍝Deletes excess internal blanks in ⍵ (but not leading & trailing)[2]   [3]    →(0∊⍴Z←A)/0[4]    Z←((' '=1↑A)⍴' '),(DEB A),(' '=¯1↑A)⍴' '[5]    Z←((⍴Z)⌊⍴,A)↑Z    ∇
