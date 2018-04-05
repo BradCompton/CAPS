@@ -1,0 +1,1 @@
+﻿    ∇ Z←CENTROID X[1]   ⍝Return centroid of binary grid ⍵, in cells[2]   [3]    Z←((+/(⍳1↑⍴X)×+/X),+/(⍳1↓⍴X)×+⌿X)÷+/,X    ∇

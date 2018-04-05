@@ -1,0 +1,1 @@
+﻿    ∇ CACHEWAIT A[1]   ⍝Set global cachewait[2]   ⍝B. Compton, 21 Nov 2014 (from GRIDWAIT)[3]   [4]   [5]   [6]    ⍎(0=⎕NC'cachewait')/'cachewait←0'[7]    cachewait←cachewait+⎕AI[2]-A    ∇

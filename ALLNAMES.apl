@@ -1,0 +1,1 @@
+﻿    ∇ Z←A ALLNAMES F;T[1]   ⍝Return allnames_⍵ if it exists (preceeded by ⍺), otherwise return ⊂repname[2]   ⍝To allow init: to create rep-specific text output files[3]   ⍝B. Compton, 5 Mar 2013[4]   [5]   [6]    ⍎(0=⎕NC'A')/'A←'''''[7]    Z←⊂NAME 'repname'[8]    →(0=⎕NC T←'allnames_',F)/0[9]    Z←(⊂A),¨⍎T    ∇

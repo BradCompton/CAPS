@@ -1,0 +1,1 @@
+﻿    ∇ P CHECKGRIDEXISTS F;T[1]   ⍝Look for grid ⍵; warn if missing.  Use grid path unless path is supplied in ⍺[2]   ⍝11 Mar 2016: Renamed from CHECKGRID to make name for new, more comprehensive CHECKGRID[3]   [4]   [5]   [6]    ⍎(0=⎕NC'P')/'P←pathG'[7]    →(0∊⍴FRDBL F)/0        ⍝No warning if empty string[8]    'Missing grid:' WARN (~IFGRIDEXISTS F)/F←P PATH F    ∇

@@ -1,0 +1,1 @@
+﻿    ∇ Z←CALLINGMETRIC;X;T[1]   ⍝Return name of calling metric in stack indicator, or '' if no metric there[2]   ⍝B. Compton, 15 Aug 2012 (from ME)[3]   [4]   [5]   [6]    X←LJUST (⍴⎕SI)↑(+/^\⎕SI≠'[')⌽((⍴⎕SI)⍴' '),⎕SI     ⍝Stack indicator[7]   [8]   L1:Z←''[9]    →(0∊⍴X←1 0↓X)/0[10]   →(~∨/(⊂'in','fo:')≡¨↓((1↑⍴T),5)↑T←⎕CR Z←FRDBL X[1;])/L1    ∇

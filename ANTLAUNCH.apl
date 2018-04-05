@@ -1,0 +1,1 @@
+﻿    ∇ ANTLAUNCH;T[1]   ⍝Launch Anthill threads[2]   [3]    T←⎕LIB 'x:\'[4]    T←⎕LIB 'z:\'[5]    ⎕SA←'OFF'[6]    2 ⎕CMD 'taskmgr'[7]    LAUNCH 0    ∇

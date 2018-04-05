@@ -1,0 +1,1 @@
+﻿    ∇ Z←A BITOR B;N[1]   ⍝Do a bitwise OR of non-negative integers ⍺ and ⍵[2]   ⍝B. Compton, 15 Aug 2012[3]   [4]   [5]    N←+/((⌈/,A←0⌈A)⌈⌈/,B←0⌈B)≥2*0,⍳15       ⍝How many bits do we need?[6]    Z←2⊥((N⍴2)⊤A)∨(N⍴2)⊤B    ∇

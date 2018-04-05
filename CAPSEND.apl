@@ -1,0 +1,1 @@
+﻿    ∇ CAPSEND[1]   ⍝Write end of run line to CAPSresults.log[2]   [3]   [4]    logfile←pathP PATH 'caps.log'[5]    LOG '+++++ CAPS run finished +++++'[6]    ('[',NOW,']  CAPS run finished') NAPPEND pathR PATH 'CAPSresults.log'    ∇

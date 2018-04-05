@@ -1,0 +1,1 @@
+﻿    ∇ CHECK A[1]   ⍝CHECK SUMMARIZELG.R RESULTS - WITH CHECKSUMMARIZELG.AML[2]   ⍝TEMPORARY, 21 OCT 08[3]   [4]   ⎕←'Percent: ',⍕100×(A[2]-A[1])÷A[1][5]   ⎕←'Total: ',⍕A[2]-A[1]    ∇

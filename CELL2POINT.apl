@@ -1,0 +1,1 @@
+﻿    ∇ Z←W CELL2POINT RC[1]   ⍝Give x,y of cell r,c ⍵ given window ⍺ (ncol, nrow, xll, yll, cellsize)[2]   ⍝B. Compton, 8 Oct 2013[3]   [4]   [5]   [6]    Z←W[3 4]+W[5]×(RC[2]-.5),.5+W[2]-RC[1]    ∇

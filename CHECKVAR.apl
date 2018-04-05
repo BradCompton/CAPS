@@ -1,0 +1,1 @@
+﻿    ∇ Z←CHECKVAR V[1]   ⍝Warn if variables ⍵ are missing[2]   [3]    →(0∊⍴V)/0[4]    'Missing parameters:' WARN (2≠⊃,/⎕NC¨↓V)⌿V←MATRIFY V    ∇

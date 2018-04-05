@@ -1,0 +1,1 @@
+﻿    ∇ Z←A CHECKVALUES X;Q[1]   ⍝Check variable (1st word in ⍵); warn if value is not one of subsequent words in ⍵[2]   ⍝Dummy left argument allows executing a function to set variables if necessary[3]   [4]   [5]    Q←MIX TOLOWER⍎(X←MATRIFY X)[1;][6]    ('Bad value for keyword ',(FRDBL X[1;]),':') WARN (0=(1 0↓X) MATIOTA Q)⌿Q    ∇

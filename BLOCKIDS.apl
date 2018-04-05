@@ -1,0 +1,1 @@
+﻿    ∇ Z←BLOCKIDS I[1]   ⍝Return aaa aab aac style block ids for indices ⍵[2]   [3]    Z←⎕AV[⍉98+26 26 26⊤¯1+I]    ∇

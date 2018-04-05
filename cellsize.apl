@@ -1,0 +1,1 @@
+﻿    ∇ Z←cellsize[1]   ⍝Return the cell size of the current grid window - same as CELLSIZE[2]   ⍝Takes the place of the old global variable 'header[5]'[3]   ⍝B. Compton, 5 Nov 2013[4]   [5]   [6]   [7]    Z←WINDOW[5]    ∇

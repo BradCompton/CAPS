@@ -1,0 +1,1 @@
+﻿    ∇ Z←ANGLE P;L[1]   ⍝Return the angle between the three points described by vector or matrix ⍵ (3 x,y pairs) in degrees[2]   ⍝B. Compton, 5 Aug 2015[3]   [4]   [5]   [6]    P←3 2⍴P[7]    L←(+/(P-1⊖P)*2)*.5                                 ⍝Lengths of 3 sides of triangle[8]    Z←DEG ¯2○1⌊¯1⌈((L[1]*2)+(L[2]*2)-L[3]*2)÷2××/L[⍳2] ⍝Use Law of Cosines    ∇

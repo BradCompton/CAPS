@@ -1,0 +1,1 @@
+﻿    ∇ BADGRID G;X[1]   ⍝See if grid ⍵ crashes APL[2]   ⍝B. Compton, 3 Dec 2013[3]   [4]   [5]   SETPATHS[6]   CONFIG[7]   GRIDINIT ''[8]   SETWINDOW G[9]   X←∆READGRID G    ∇

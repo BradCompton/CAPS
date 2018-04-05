@@ -1,0 +1,1 @@
+﻿    ∇ Z←BIGSD X[1]   ⍝Calculate standard deviation for SUM, SS, and N ⍵ using working formula[2]   ⍝⍵ may be an n×3 matrix or a 3 element vector; result is a vector[3]   ⍝Source: Zar p. 35; tested against R's sd()[4]   ⍝B. Compton, 25 Apr 2017[5]   [6]   [7]   [8]    X←(¯2↑1,⍴X)⍴X[9]    Z←((X[;2]-(X[;1]*2)÷X[;3])÷X[;3]-1)*.5       ∇

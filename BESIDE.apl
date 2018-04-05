@@ -1,0 +1,1 @@
+﻿    ∇ Z←A BESIDE B[1]   ⍝Like OVER, but puts ⍺ to the left of ⍵[2]   [3]    A←(¯2↑1,⍴A)⍴A[4]    B←(¯2↑1,⍴B)⍴B[5]    Z←⍉(⍉A) OVER ⍉B    ∇
