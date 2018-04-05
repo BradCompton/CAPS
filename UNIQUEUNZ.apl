@@ -1,0 +1,1 @@
+﻿    ∇ Z←UNIQUEUNZ X[1]   ⍝Return unsorted unique non-zero elements of vector ⍵[2]   ⍝Don't use this for large vectors--it'll take forever.[3]   ⍝B. Compton, 14 Oct 2014, from UNIQUENZ[4]   [5]   [6]   [7]    Z←((X⍳X)=⍳⍴X)/X←(X≠0)/X    ∇

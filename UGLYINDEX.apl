@@ -1,0 +1,1 @@
+﻿    ∇ Z←D UGLYINDEX X;I;QL;K[1]   ⍝Give indices of rows of matrix ⍵ in matrix ⍺[2]   ⍝Gives a decent speedup for QUANTILESCALESUB[3]   ⍝B. Compton, 9 Feb 2016[4]   [5]   [6]   [7]   DELETE THIS!  (↓D)⍳↓X IS TWICE AS FAST, EVEN FOR HUGE MATRICES[8]   [9]   [10]  [11]   K←⍳⍴Z←(1↑⍴X)⍴0[12]   I←1+(⍴D)[1][13]  L1:→(1>I←I-1)/0[14]   Z[(X^.=D[I;])/K]←I[15]   →L1    ∇

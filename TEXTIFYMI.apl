@@ -1,0 +1,1 @@
+﻿    ∇ Z←TEXTIFYMI X;Q[1]   ⍝Add quotes around text in mosaic info vector ⍵ so it's ready to write to a file, read back in, and ⍎[2]   ⍝B. Compton, 28-29 Apr 2014[3]   [4]   [5]   [6]    →(0∊⍴Z←X)/0[7]    X[6]←⊂FMTALL⊃X[6][8]    Q←1+(Q×2)+(0=Q←82=⎕DR¨X)^⊃,/⍴¨⍴¨X[9]    Z←DEB⍕' ('''[Q],¨(⍕¨X),¨' )'''[Q]    ∇

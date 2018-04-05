@@ -1,0 +1,1 @@
+﻿    ∇ Z←A TRANSECT X;V;N[1]   ⍝Run a transect from cell ⍺[1],⍺[2] to ⍺[3],⍺[4] with point density ⍺[5] (points/cell) through matrix ⍵ and return vector of values from ⍵[2]   ⍝B. Compton, 3 Aug 2011[3]   [4]   [5]    A←5↑A,1[6]    V←A[1 2]⍪((((⌊N),2)⍴A[1 2])-(⍳⌊N)∘.×(-⌿2 2⍴A)÷N←((+/(-⌿2 2⍴A)*2)*.5)÷A[5])⍪A[3 4]    ⍝Points along segment[7]    Z←X SCATI ⌊.5+ROUND V    ∇

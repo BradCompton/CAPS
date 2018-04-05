@@ -1,0 +1,1 @@
+﻿    ∇ Z←D TIME2 S;T[1]   ⍝Give days:hrs:min:sec from seconds ⍵. Drop ⍺ least-significant units.[2]   [3]   [4]   [5]    ⍎(0=⎕NC'D')/'D←0'[6]    S←T×⌊.5+S÷T←×/D↑60 60 24       ⍝Round if we're dropping units[7]    Z←(-D)↓1000 24 60 60⊤S[8]    :if ^/Z=0[9]       Z←'0','smhd'[D+1][10]   :else[11]      Z←1↓⊃,/':',¨(+/^\Z=0)↓(⍕¨1 ROUND¨Z),¨(-D)↓'dhms'[12]   :end    ∇

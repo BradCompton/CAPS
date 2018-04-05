@@ -1,0 +1,1 @@
+﻿    ∇ Z←UNIQUENZ X[1]   ⍝Return sorted unique non-zero elements of vector ⍵[2]   ⍝10 Oct 2014: rewrite to use UNIQUE, which is way faster[3]   [4]   [5]   [6]    Z←UNIQUE (X≠0)/X    ∇

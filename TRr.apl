@@ -1,0 +1,1 @@
+﻿    ∇ R TRr I[1]   ⍝Recursive subroutine of TR for cell ⍵ with current restriction ⍺[2]   ⍝Globals: dams trs result d8flow[3]   ⍝B. Compton, 5, 12 Apr 2010[4]   [5]   [6]    →dams[I[1];I[2]]/0            ⍝If we've hit a dam, we're all done[7]    result[I[1];I[2]]←R←R⌈trs[I[1];I[2]][8]    →(0∊⍴I←d8flow FLOWINTO I)/0[9]    R TRr¨↓I    ∇

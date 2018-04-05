@@ -1,0 +1,1 @@
+﻿    ∇ TESTMEMALLOC;F;G;X;I[1]   ⍝Cause a memalloc crash from the local grid server - simpler version[2]   ⍝B. Compton, 30 Jan 2014[3]   [4]   [5]   [6]    F←'e:\gridcache\41\luwet_m11'[7]   [8]    I←0[9]   L1:I←I+1[10]   ∆GRIDINIT ''[11]   ∆SETWINDOW F[12]   ⎕←(⍕I),'. Reading ',F ⋄ FLUSH[13]   X←∆READBLOCK (⊂F),(?2⍴10000),1000 1000[14]   ∆CLEANUP[15]   →L1    ∇

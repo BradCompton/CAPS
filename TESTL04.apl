@@ -1,0 +1,1 @@
+﻿    ∇ TESTL04 H;T;Q;F[1]   [2]    CONFIG[3]    →L2[4]   L1:DOT[5]    T←⎕DL 2[6]   L2:T←GETLOCK H[7]    Q←1 IFEXISTS F←pathA,(?5)⊃'projects.txt' 'tasks.txt' 'computers.txt' 'threads.txt' 'anthill.log'[8]    RETURNLOCK 0[9]    →Q/L1[10]   ⎕←⎕TCNL,NOW,' - ERROR ERROR ERROR: ',F    ∇

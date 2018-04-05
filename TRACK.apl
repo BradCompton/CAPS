@@ -1,0 +1,1 @@
+﻿    ∇ TRACK X[1]   ⍝Display message ⍵ if tracking is 1[2]   ⍝B. Compton, 12 Nov 2013[3]   [4]   [5]   [6]    →(0=⎕NC'tracking')/0[7]    →(tracking=0)/0[8]    ⎕←X[9]    FLUSH    ∇

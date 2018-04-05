@@ -1,0 +1,1 @@
+﻿    ∇ Z←R UNIFORM N[1]   ⍝Return ⍵ uniform random numbers between ⍺[1] and ⍺[2] (default = 0,1)[2]   [3]    ⍎(0=⎕NC'R')/'R←0 1'[4]    Z←R[1]+(R[2]-R[1])×(¯1+?N⍴1E6+1)÷1E6    ∇

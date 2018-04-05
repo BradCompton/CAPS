@@ -1,0 +1,1 @@
+﻿    ∇ Z←D STRIPPATH F[1]   ⍝Strip path from path\file ⍵ and return just the path; use default path ⍺[2]   ⍝Sort of the opposite of STRIP[3]   ⍝B. Compton, 27 Jul 2011[4]   [5]    Z←(⌽~^\⌽~F∊'\:')/F[6]    →((0≠⍴Z)∨0=⎕NC'D')/0[7]    Z←D    ∇

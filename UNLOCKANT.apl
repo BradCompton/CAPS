@@ -1,0 +1,1 @@
+﻿    ∇ UNLOCKANT[1]   ⍝Return the lock manually[2]   ⍝25 Mar 2014: name changed from UNLOCK because I keep using this accidentally[3]   ⍝16 Aug 2016: use .M for manual lock[4]   [5]   [6]   [7]   CONFIG[8]   RETURNLOCK pathA (computername,'.M') 'Manual lock'[9]   ⎕←'Returned the lock.'    ∇

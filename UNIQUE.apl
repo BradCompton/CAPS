@@ -1,0 +1,1 @@
+﻿    ∇ Z←UNIQUE X[1]   ⍝Return unique elements of vector ⍵[2]   ⍝Far, far faster than ((X⍳X)=⍳⍴X)/X for large vectors[3]   ⍝B. Compton, 8 Sep 2014[4]   [5]   [6]   [7]    →(0∊⍴Z←X←,X)/0[8]    X←X[⍋X][9]    Z←(X≠(X[1]+1),¯1↓X)/X    ∇

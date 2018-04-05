@@ -1,0 +1,1 @@
+﻿    ∇ Z←V UNMV A[1]   ⍝Set all MV in ⍵ to 0, or to ⍺ if supplied[2]   [3]    ⍎(0=⎕NC'V')/'V←0'[4]    Z←(×/⍴A)⍴A[5]    Z[(Z∊MV)/⍳⍴Z]←V[6]    Z←(⍴A)⍴Z    ∇

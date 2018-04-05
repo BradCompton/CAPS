@@ -1,0 +1,1 @@
+﻿    ∇ Z←TEXTIFYGI X;Q[1]   ⍝Format grid info vector ⍵ so it's ready to write to a file, read back in, and ⍎[2]   ⍝B. Compton, 29 Apr 2014[3]   [4]   [5]   [6]    →(0∊⍴⍴Z←X)/0[7]    Z←'(',(DEB ⍕FMTALL X),')'    ∇

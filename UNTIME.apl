@@ -1,0 +1,1 @@
+﻿    ∇ Z←UNTIME S[1]   ⍝Give seconds from hrs:min:sec ⍵ (inverse of TIME)[2]   ⍝B. Compton, 25 Feb 2014[3]   [4]   [5]   [6]    →(S≡0)/Z←0[7]    →(0∊⍴FRDBL S)/0[8]    Z←1E6 60 60⊥⎕FI '.:. ' TEXTREPL S    ∇

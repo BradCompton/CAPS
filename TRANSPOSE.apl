@@ -1,0 +1,1 @@
+﻿    ∇ Z←I TRANSPOSE X[1]   ⍝Transpose ⍵ if ⍺[2]   [3]   [4]    Z←X[5]    →(I=0)/0[6]    Z←⍉X    ∇

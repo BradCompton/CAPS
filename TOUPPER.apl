@@ -1,0 +1,1 @@
+﻿    ∇ Z←TOUPPER A;S[1]   ⍝Convert ⍵ to uppercase. Pass numbers through.[2]   [3]    →(1≥≡A)/L1[4]    Z←TOUPPER¨A[5]    →0[6]   L1:→((0∊⍴A)∨0=1↑0⍴Z←A)/0[7]    Z←TOUPPERX A    ∇

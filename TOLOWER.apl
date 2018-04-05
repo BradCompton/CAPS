@@ -1,0 +1,1 @@
+﻿    ∇ Z←TOLOWER X;A;B[1]   ⍝Convert ⍵ to lowercase[2]   [3]    A←'abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ'[4]    Z←,X[5]    Z[B/⍳⍴Z]←A[1+27|¯1+A⍳(B←Z∊A)/Z][6]    Z←(⍴X)⍴Z    ∇

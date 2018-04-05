@@ -1,0 +1,1 @@
+﻿    ∇ TESTMAKEDIR;F;L;Q;T[1]   [2]   [3]    F←'d:\caps\working\testthingy'[4]   [5]   L0:L←F,⍕Q←⎕TS[6][6]   L1:T←⎕DL 0.1            ⍝Wait until next second[7]    →(Q=⎕TS[6])/L1[8]    ⍞←'Locking ',L,'...' ⋄ FLUSH[9]    T←L GETLOCK 0[10]   ⎕←'...got it.' ⋄ FLUSH[11]   ⍞←'   Making ',L,'...' ⋄ FLUSH[12]   MAKEDIR L[13]   ⎕←'...done.' ⋄ FLUSH[14]  →L0    ∇
