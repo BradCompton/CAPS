@@ -1,0 +1,1 @@
+﻿    ∇  Z←LJUST A[1]    ⍝Left-justifies character vector or matrix ⍵[2]    →(A←''⍴(⎕STPTR'Z A')⎕CALL LJUST∆OBJ)↓0[3]    ⎕ERROR(5 7 8⍳A)⊃'RANK ERROR' 'VALUE ERROR' 'WS FULL' 'DOMAIN ERROR'[4]    ⍝ Copyright (c) 1988, 1994 by Jim Weigang    ∇

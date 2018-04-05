@@ -1,0 +1,1 @@
+﻿    ∇ Z←KNAMES X;B[1]   ⍝Given a vector of numbers ⍵, return formatted version with 1000s represented by 'k'[2]   ⍝e.g., 500 1000 1500 2000  →  500 1k 1500 2k[3]   ⍝B. Compton, 18 Mar 2013[4]   [5]   [6]   [7]   Z←⍕¨,X[8]   Z[B/⍳⍴Z]←(B←X=1000×⌊(X÷1000))/(⍕¨X÷1000),¨'k'    ∇

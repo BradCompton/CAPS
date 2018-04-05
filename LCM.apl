@@ -1,0 +1,1 @@
+﻿    ∇ Z←A LCM B[1]   ⍝Give least common multiple of ⍺ and ⍵[2]   [3]    Z←(A×B)÷A GCD B    ∇

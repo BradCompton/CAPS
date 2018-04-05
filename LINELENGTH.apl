@@ -1,0 +1,1 @@
+﻿    ∇ Z←LINELENGTH M[1]   ⍝Return total length of line ⍵ (matrix of x,y)[2]   ⍝B. Compton, 16 Aug 2012[3]   [4]   [5]    Z←+/(+/(1 0↓M-¯1⊖M)*2)*.5    ∇

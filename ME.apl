@@ -1,0 +1,1 @@
+﻿    ∇ Z←ME[1]   ⍝Return name of calling function[2]   [3]   Z←(¯1+⎕SI[2;]⍳'[')↑⎕SI[2;]    ∇

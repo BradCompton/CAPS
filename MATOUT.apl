@@ -1,0 +1,1 @@
+﻿    ∇ X MATOUT F[1]   ⍝Write numeric matrix ⍺ to file ⍵[2]   ⍝This version is somewhat obsolete - you probably want TMATOUT or CMATOUT[3]   [4]    (HITOLOW⍕X) NWRITE F    ∇

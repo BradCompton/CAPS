@@ -1,0 +1,1 @@
+﻿    ∇ Z←log N[1]   ⍝Base 10 logarithm[2]   [3]    Z←10⍟N    ∇

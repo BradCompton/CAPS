@@ -1,0 +1,1 @@
+﻿    ∇ KILL_LOCKS;X;Y;T;B[1]   ⍝LOOK FOR LOCKS HELD BY KILLED THREADS AND UNLOCK THEM[2]   ⍝29 JUL 2014[3]   ⍝TEMPORARY ⍝⍝⍝⍝⍝ *****[4]   [5]   [6]   [7]   [8]   L1:X←VTOM ⎕TCNL,NREAD pathA,'killed.txt'[9]    Y←LOCKINFO[10]   :if ∨/B←Y[;2]∊FRDBL¨↓X[11]      RETURNLOCK¨B/Y[;1][12]      ⎕←B⌿Y ⋄ FLUSH[13]   :end[14]   T←⎕DL 5[15]   →L1    ∇

@@ -1,0 +1,1 @@
+﻿    ∇ LINK_RANKS F;X;H;head[1]   ⍝Add impact ranks to Critical Linkages I results 1⊃⍵, write to 2⊃⍵[2]   ⍝B. Compton, 23 Mar 2015[3]   [4]   [5]   [6]    X H ← GETTABLE 1⊃F[7]    X←X,RANK X[;H COL 'EFFECT'][8]    H←H OVER 'rank'[9]    head←1↓⎕TCHT MTOV H[10]   X TMATOUT 2⊃F    ∇

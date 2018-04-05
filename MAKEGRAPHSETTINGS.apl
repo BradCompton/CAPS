@@ -1,0 +1,1 @@
+﻿    ∇ MAKEGRAPHSETTINGS[1]   ⍝Build graphsettings.par for graph linkages project, and report anthroweight and naturalweight[2]   [3]   [4]   ........    ∇

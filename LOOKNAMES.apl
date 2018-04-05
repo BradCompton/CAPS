@@ -1,0 +1,1 @@
+﻿    ∇ Z←LOOKNAMES X;Q[1]   ⍝Cover function for LOOKUP; looks up list of comma-separated landcover names ⍵ and give grid codes[2]   ⍝B. Compton, 19 Jun 2014[3]   [4]   [5]   [6]    Q←FRDBL¨↓',' MATRIFY '.÷./' TEXTREPL X     ⍝Kludge to preserve slashes in cover type names[7]    Z←(LOOKUP 0,((⍴Q),1)⍴Q)[;1]    ∇

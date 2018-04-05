@@ -1,0 +1,1 @@
+﻿    ∇ LAUNCHSERVERS[1]   ⍝Launch grid servers on local machine if they're not already running[2]   ⍝B. Compton, 12 Nov 2013[3]   ⍝18 Nov 2013: rearrange and split into LANCHSERVERS, LAUNCHMORESERVERS, and RELAUNCHSERVERS[4]   [5]   [6]   [7]    LAUNCHMORESERVERS ''    ∇

@@ -1,0 +1,1 @@
+﻿    ∇ LOCALINIT[1]   ⍝Set up paths and grid for something running in CAPS environment[2]   ⍝B. Compton, 28 May 2009[3]   ⍝26 Sep 2012: don't call SETPATHS! Temporary paths get lost.[4]   [5]   ⍝THIS IS OBSOLETE, JUST HERE FOR THE TRANSITION[6]   [7]    SETBREAK[8]    GRIDINIT ''[9]    SETWINDOW 1 GRIDNAME 'reference'    ∇

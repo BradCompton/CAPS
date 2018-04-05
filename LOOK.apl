@@ -1,0 +1,1 @@
+﻿    ∇ Z←LOOK C[1]   ⍝Cover function for LOOKUP; gives class of single cover type ⍵[2]   [3]   Z←(LOOKUP 1 2⍴1 C)[;1]    ∇

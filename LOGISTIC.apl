@@ -1,0 +1,1 @@
+﻿    ∇ Z←S LOGISTIC X[1]   ⍝Rescale ⍵ logistically by inflection point ⍺[1] and scaling factor ⍺[2][2]   ⍝⍺[3] is minimum value - results run between ⍺[3] and 1[3]   [4]    Z←÷1+*100⌊(-X-S[1])÷(S←3↑S)[2][5]    Z←S[3]+Z×1-S[3][6]    Z←X REMV Z    ∇

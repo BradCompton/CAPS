@@ -1,0 +1,1 @@
+﻿    ∇ Z←LIB X;⎕ELX[1]   ⍝Do ⎕LIB, but don't throw errors if file doesn't exist[2]   [3]   [4]    ⎕ELX←'Z←0 0⍴'''' ⋄ →0'[5]    Z←⎕LIB X    ∇

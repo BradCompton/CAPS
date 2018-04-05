@@ -1,0 +1,1 @@
+﻿    ∇ Z←A LN B;C[1]   ⍝Logarithm; return MVs instead of DOMAIN ERROR[2]   ⍝B. Compton, 21 Sep 2011[3]   [4]   [5]    ⍎(0=⎕NC'A')/'A←*1'[6]    Z←C\A⍟(C←,B>0)/,B[7]    Z[(~C)/⍳⍴Z]←MV[8]    Z←(⍴B)⍴Z    ∇
