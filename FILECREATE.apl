@@ -1,0 +1,1 @@
+﻿    ∇ Z←A FILECREATE F;N;⎕ELX;T[1]   ⍝Create empty file ⍵; return 1 if successful.  Write ⍺ to the file, if provided.[2]   ⍝B. Compton, Apr-Jun 2011[3]   [4]   [5]   [6]    ⎕ELX←'→Z←0'[7]    F ⎕XNCREATE N←-1+0⌈⌈/|⎕XNNUMS[8]    →(0=⎕NC'A')/L1[9]    A ⎕NAPPEND N[10]  L1:⎕NUNTIE N[11]   Z←1    ∇

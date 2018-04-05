@@ -1,0 +1,1 @@
+﻿    ∇ FLUSH;T[1]   ⍝Pause to flush output buffer so screen updates properly[2]   ⍝B. Compton, 13 May 2009[3]   ⍝I can't believe I found this after all these years[4]   [5]    T←⎕DL .01    ∇

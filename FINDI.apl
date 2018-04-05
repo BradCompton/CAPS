@@ -1,0 +1,1 @@
+﻿    ∇ Z←A FINDI B[1]   ⍝Find row(s) ⍵ in table ⍺; return index[2]   ⍝B. Compton, 19 Apr 2011[3]   [4]   [5]    A←(2↑(⍴A),1 1)⍴A       ⍝If A is a vector, treat it as a single column[6]    Z←((Z≤1↑⍴A)×Z←(A FIND B))/⍳1↑⍴A    ∇

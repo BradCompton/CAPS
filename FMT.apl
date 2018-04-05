@@ -1,0 +1,1 @@
+﻿    ∇ Z←D FMT N[1]   ⍝Format ⍵ with ⍺ digits after the decimal place, using commas[2]   ⍝B. Compton, 7 Oct 2012[3]   [4]   [5]   [6]    ⍎(0=⎕NC'D')/'D←2'[7]    :if D=0[8]       Z←FRDBL,'CI25' ⎕FMT N[9]    :else[10]      Z←FRDBL,('CF25.',⍕D) ⎕FMT N[11]   :endif    ∇

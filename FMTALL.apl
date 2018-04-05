@@ -1,0 +1,1 @@
+﻿    ∇ Z←FMTALL X[1]   ⍝Format ⍵ to 16 full digits[2]   ⍝B. Compton, 21 Nov 2013[3]   [4]   [5]    Z←(⊂', ,0,[.],0,[.,0.,[,,.],,],') TEXTREPL¨'[',¨(FRDBL¨(⊂'.0. ') TEXTREPL¨16⍕¨X),¨']'    ∇

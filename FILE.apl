@@ -1,0 +1,1 @@
+﻿    ∇ Z←P FILE F[1]   ⍝Cover function for NREAD; read file ⍵ from pathI[2]   [3]    ⍎(0=⎕NC'P')/'P←pathI'[4]    Z←NREAD P PATH F    ∇

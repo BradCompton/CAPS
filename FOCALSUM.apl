@@ -1,0 +1,1 @@
+﻿    ∇ Z←N FOCALSUM X;I;K[1]   ⍝Return 3×3 focal sum neighbor value of each cell[2]   ⍝Use ⍺-neighbor rule[3]   ⍝Uses global KK8[4]   [5]    ⍎(0=⎕NC'N')/'N←8'[6]    K←(N,2)↑KK8[7]    X←(-2+⍴X)↑(1+⍴X)↑X[8]    Z←0[9]    I←0[10]  L1:→((1↑⍴K)<I←I+1)/L2[11]   Z←Z+(K[I;1]⌽K[I;2]⊖X)[12]   →L1[13]  L2:Z←¯1 ¯1↓1 1↓Z    ∇

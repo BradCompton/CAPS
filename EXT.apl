@@ -1,0 +1,1 @@
+﻿    ∇ Z←F EXT E[1]   ⍝Return filename ⍺ with default extension ⍵ if none supplied[2]   [3]   [4]    Z←(FRDBL F),(~'.'∊F)/'.',E    ∇

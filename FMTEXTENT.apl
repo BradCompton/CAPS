@@ -1,0 +1,1 @@
+﻿    ∇ Z←FMTEXTENT X[1]   ⍝Format window extent ⍵ ncol, nrow, xll, yll, cellsize, and optional nodata, type[2]   ⍝xll, yll, and cellsize are formatted to 16 full digits[3]   ⍝B. Compton, 21 Nov 2013[4]   [5]   [6]    Z←⍕¨X[7]    Z[3 4 5]←FMTALL X[3 4 5][8]    Z←HITOLOW ⍕¯1↓⊃,/Z,¨','    ∇

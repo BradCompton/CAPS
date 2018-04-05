@@ -1,0 +1,1 @@
+﻿    ∇ DX I;X[1]   ⍝DISPLAY XML[2]   [3]    X←('.',⎕TCNL,'.⎕') TEXTREPL xml[4]    ⎕←(80↑X),[.5]80↑((I-1)⍴' '),'↑'    ∇

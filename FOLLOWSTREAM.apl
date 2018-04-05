@@ -1,0 +1,1 @@
+﻿    ∇ Z←N FOLLOWSTREAM Q[1]   ⍝Follow stream centerlines from point ⍵ for ⍺ segments, returning list of points[2]   ⍝Global: X = list of stream segments[3]   [4]   [5]    Z←1 2⍴Q[6]   L1:Q←(X[;1 2]^.=,Q)⌿X[;3 4]  ⍝While there are still segments[7]    →(1≠1↑⍴Q)/0                ⍝   Bail if reached end or if divergence[8]    Z←Z⍪Q[9]    →(1<N←N-1)/L1    ∇

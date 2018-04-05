@@ -1,0 +1,1 @@
+﻿    ∇ Z←EXPAND8 X[1]   ⍝Expand values in ⍵ 1 cell to replace zeros, using 8 neighbor rule[2]   ⍝Higher-valued cells win in the case of ties[3]   ⍝B. Compton, 25 Nov 2015, from EXPAND[4]   [5]   [6]   [7]    X←0,(0⍪X⍪0),0              ⍝Need a border[8]    Z←X+(X=0)×(1⌽X)⌈(¯1⌽X)⌈(1⊖X)⌈(¯1⊖X)⌈(1⌽1⊖X)⌈(1⌽¯1⊖X)⌈(¯1⌽1⊖X)⌈¯1⌽¯1⊖X[9]    Z←1 1↓¯1 ¯1↓Z    ∇

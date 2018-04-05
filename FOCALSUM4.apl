@@ -1,0 +1,1 @@
+﻿    ∇ Z←FOCALSUM4 X[1]   ⍝Gives focal sum using 4-neighbor rule[2]   ⍝Uses global KK (adjacent cells for 4- or 8-neighbor rule)[3]   [4]    Z←FOCALSUM X    ∇

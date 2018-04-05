@@ -1,0 +1,1 @@
+﻿    ∇ Z←FIXEXP X[1]   ⍝Fix goofy exponents in string ⍵, including those from R[2]   ⍝B. Compton, 10 Mar 2014[3]   [4]   [5]   [6]    Z←LOWTOHIX '.e+.E.E+.E.e.E' TEXTREPL ,X    ∇

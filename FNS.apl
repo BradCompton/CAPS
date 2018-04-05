@@ -1,0 +1,1 @@
+﻿    ∇ Z←FNS P[1]   ⍝Return functions with ⍵ in their name[2]   ⍝B. Compton, 14 Oct 2010[3]   [4]   [5]    Z←(1∊¨(↓⎕NL 3) ⎕SS¨⊂P)⌿⎕NL 3    ∇

@@ -1,0 +1,1 @@
+﻿    ∇ Z←A EUDIST1 X;M[1]   ⍝Return Euclidean distance between vector ⍺ (length v) and each ⍵ in v×n×m array[2]   ⍝For now, any missing → missing distance[3]   ⍝B. Compton, 6 Dec 2007[4]   [5]   [6]    M←↓⍉((1↑⍴X),×/(⍴X)[2 3])⍴X[7]    Z←(+/¨((⊂A)∘.-M)*2)*.5[8]    Z←(⍴X)[2 3]⍴Z[9]    Z←(MV×(MV∊A)∨∨⌿X∊MV) REMV Z    ∇

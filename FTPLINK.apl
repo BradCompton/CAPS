@@ -1,0 +1,1 @@
+﻿    ∇ Z←FTPLINK X[1]   ⍝Given address on our cluster's SFTP web site, give the link[2]   ⍝B. Compton, 2 Apr 2018[3]   [4]   [5]   [6]    Z←'|x:\ftp\web\|http://jamba.provost.ads.umass.edu/web/|\|/' TEXTREPL TOLOWER X    ∇

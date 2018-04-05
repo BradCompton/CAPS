@@ -1,0 +1,1 @@
+﻿    ∇  Z←DTB A[1]    ⍝Deletes trailing blank columns in character vector or matrix ⍵[2]    →(A←''⍴(⎕STPTR'Z A')⎕CALL DTB∆OBJ)↓0[3]    ⎕ERROR(5 7 8⍳A)⊃'RANK ERROR' 'VALUE ERROR' 'WS FULL' 'DOMAIN ERROR'[4]    ⍝ Copyright (c) 1992, 1994 by Jim Weigang    ∇

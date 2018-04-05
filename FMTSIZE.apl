@@ -1,0 +1,1 @@
+﻿    ∇ Z←FMTSIZE X;P[1]   ⍝Format file size ⍵ in B, KB, MB, GB, or TB[2]   ⍝B. Compton, 28 Jan 2015[3]   [4]   [5]    Z←(⍕1 ROUND (X÷10*P×3)),' ',⊃'B' 'KB' 'MB' 'GB' 'TB'[1+P←+/X≥10*3 6 9 12]    ∇

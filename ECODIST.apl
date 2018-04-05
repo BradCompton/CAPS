@@ -1,0 +1,1 @@
+﻿    ∇ Z←A ECODIST B[1]   ⍝Give ecological distances between point with settings vector ⍺ and all points with settings matrix ⍵[2]   ⍝B. Compton, 4 Nov 2011 (from CONNECT)[3]   [4]   [5]   [6]    Z←(1⌊A EUDIST B)    ∇

@@ -1,0 +1,1 @@
+﻿    ∇ Z←F FLOWINTOO D;B[1]   ⍝Give coordinates of cells that flow into cell ⍵ given flow grid ⍺[2]   ⍝Goofy offset version, used by WATERSHED[3]   [4]    B←,F[D[1]+0 1 2;D[2]+0 1 2]=3 3⍴2 4 8 1 0 16 128 64 32[5]    Z←(((+/B),2)⍴D)+B⌿9 2⍴¯1 ¯1 ¯1 0 ¯1 1 0 ¯1 0 0 0 1 1 ¯1 1 0 1 1    ∇

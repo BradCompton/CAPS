@@ -1,0 +1,1 @@
+﻿    ∇ ZZ←XX FIND1PATCH J[1]   ⍝Id patch at ⍵ in ⍺ using neighbor rule set by KK[2]   ⍝Uses global KK (adjacent cells for 4- or 8-neighbor rule)[3]   ⍝Ignores zero-valued cells[4]   [5]    ZZ←(XX≠0)×(⍴XX)⍴0[6]    (1,XX[J[1];J[2]]) FILLPATCH J    ∇

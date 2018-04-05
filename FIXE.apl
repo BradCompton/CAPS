@@ -1,0 +1,1 @@
+﻿    ∇ Z←FIXE X[1]   ⍝Fix scientific notation[2]   [3]    Z←(X≠'+')/('/e/E')TEXTREPL X  ⍝Compatible scientific notation    ∇
