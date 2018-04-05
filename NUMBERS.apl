@@ -1,0 +1,1 @@
+﻿    ∇ Z←NUMBERS X;B[1]   ⍝Convert numeric elements of nested array ⍵ to numbers[2]   ⍝B. Compton, 20 Dec 2011[3]   [4]   [5]   [6]    B←^/¨⎕VI¨TOUPPER Z←,X[7]    Z[B/⍳⍴Z]←⊃,/⎕FI¨TOUPPER B/Z[8]    Z←(⍴X)⍴Z    ∇

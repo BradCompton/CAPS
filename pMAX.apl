@@ -1,0 +1,1 @@
+﻿    ∇  Z←P pMAX V[1]   ⍝Maximum of ⍵ partitioned by ⍺[2]   [3]    Z←V[(⍒V)[P/⍋(+\P)[⍒V]]]    ∇

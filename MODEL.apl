@@ -1,0 +1,1 @@
+﻿    ∇ Z←MODEL[1]   ⍝Return model name from ffile[2]   [3]    →(∨/'.\'∊ffile)/L1     ⍝If simple model name,[4]    Z←ffile[5]    →0[6]   L1:Z←(Z⍳'.')↓Z←⌽ffile   ⍝Else extract from path[7]    Z←⌽(¯1+Z⍳'\')↑Z    ∇

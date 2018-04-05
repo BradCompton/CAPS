@@ -1,0 +1,1 @@
+﻿    ∇ Z←P2L X[1]   ⍝Translate postland class ⍵ to land class using translation table p2l[2]   ⍝B. Compton, 14 Jun 2013[3]   [4]   [5]   [6]    :if (Z←X)∊p2l[;1]          ⍝If we have a postland type that needs translating,[7]      Z←p2l[p2l[;1]⍳X;2]   ⍝   translate it to land/lands valu[8]    :end    ∇

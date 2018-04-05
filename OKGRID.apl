@@ -1,0 +1,1 @@
+﻿    ∇ Z←OKGRID X;I;T[1]   ⍝Find grid name ⍵ (or similar) that doesn't already exist[2]   [3]   [4]   [5]    Z←X[6]    I←1↑⎕FI(T←-+/^\⌽X∊'0123456789')↑X      ⍝Strip number part if it exists[7]    X←T↓X[8]   L1:→(~IFGRIDEXISTS Z)/0[9]    Z←X,⍕I←I+1[10]   →L1    ∇

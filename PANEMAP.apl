@@ -1,0 +1,1 @@
+﻿    ∇ Z←PANEMAP M;D;D_[1]   ⍝Return the panemap from mosaic ⍵[2]   ⍝B. Compton, 6 Sep 2013[3]   [4]   [5]    D D_ ← MOSAICINFO M[6]    Z←⊃D[D_ COL 'panemap']    ∇

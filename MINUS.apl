@@ -1,0 +1,1 @@
+﻿    ∇ Z←A MINUS B[1]   ⍝Subtract (or negate)[2]   [3]   ⍎(0=⎕NC'A')/'A←0'[4]   Z←A B REMV A-B    ∇

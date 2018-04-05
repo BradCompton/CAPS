@@ -1,0 +1,1 @@
+﻿    ∇ Z←MIX X[1]   ⍝Do ↑ for uneven-length strings[2]   ⍝31 Mar 2009: preserve blank rows[3]   ⍝8 Sep 2010: pass through unnested arguments[4]   [5]   [6]    Z←0 0⍴'' ⋄ →(0∊⍴X)/0[7]    →(1≥≡Z←X)/0[8]    Z←VTOM ('.⍫.',⎕TCNL) TEXTREPL ⊃,/'⍫',¨X    ∇

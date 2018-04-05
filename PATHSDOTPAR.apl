@@ -1,0 +1,1 @@
+﻿    ∇ Z←PATHSDOTPAR;P;Q[1]   ⍝Return the contents of paths.par[2]   ⍝B. Compton, 20 Jan 2012[3]   [4]   [5]    Q←'paths.par'[6]    ⍎(0≠⎕NC'pathdir')/'Q←pathdir'[7]    P←path PATH Q[8]    Z←NREAD P    ∇

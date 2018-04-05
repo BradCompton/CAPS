@@ -1,0 +1,1 @@
+﻿    ∇ X NWRITEe F;N;⎕ELX[1]   ⍝Write ⍺ to dos file ⍵; retry if error[2]   [3]    ⎕ELX←'→L1'[4]    →(1≥⍴⍴X)/L1[5]    X←1↓MTOV X[6]   L1:NDROP F[7]    F ⎕XNCREATE N←-1+0⌈⌈/|⎕XNNUMS[8]    X←('/',⎕TCNL,'/',⎕TCNL,⎕TCLF) TEXTREPL X  ⍝Use crlf for compatability[9]    X ⎕NAPPEND N[10]   ⎕NUNTIE N    ∇

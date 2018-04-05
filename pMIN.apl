@@ -1,0 +1,1 @@
+﻿    ∇  Z←P pMIN V[1]   ⍝Minimum of ⍵ partitioned by ⍺[2]   [3]    Z←V[(⍋V)[P/⍋(+\P)[⍋V]]]    ∇

@@ -1,0 +1,1 @@
+﻿    ∇ Z←P NINFO X[1]   ⍝Drop line with info\ from matrix ⍵; return as nested vector appended to path ⍺[2]   ⍝Subroutine of CHECKCACHEINFO[3]   ⍝B. Compton, 7 Nov 2017[4]   ⍝20 Nov 2017: take left argument too[5]   [6]   [7]    [8]    Z←(⊂P),¨FRDBL¨↓X[,(⍳1↑⍴X)~X MATIOTA 'info\';]    ∇

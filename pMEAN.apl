@@ -1,0 +1,1 @@
+﻿    ∇  Z←P pMEAN V[1]   ⍝Mean of ⍵ partitioned by ⍺[2]   [3]    Z←(P pSUM V)÷⍉((1↓⍴V),+/P)⍴P pSUM (⍴P)⍴1    ∇

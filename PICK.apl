@@ -1,0 +1,1 @@
+﻿    ∇ Z←A PICK X[1]   ⍝Return 1st element of ⍵ if ⍺, 2nd otherwise[2]   ⍝Cover function to use in parameters.par[3]   ⍝B. Compton, 17 Nov 2011[4]   [5]   [6]    Z←(A+1)⊃X    ∇

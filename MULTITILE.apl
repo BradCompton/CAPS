@@ -1,0 +1,1 @@
+﻿    ∇ Z←MULTITILE G;Q[1]   ⍝Return 1 if ⍵ is a multitile ESRI grid[2]   ⍝B. Compton, 20-21 Nov 2013[3]   [4]   [5]   [6]    :Try[7]       Q←⎕LIB G[8]    :catch[9]       →Z←0      ⍝If something goes wrong, just bail out and let someone else deal with it[10]   :end[11]   Q←MTOV Q ⋄ Q[(Q∊'0123456789')/⍳⍴Q]←'*' ⋄ Q←VTOM Q[12]   Z←1<+/Q^.=(1↓⍴Q)↑'w******x.adf'    ∇

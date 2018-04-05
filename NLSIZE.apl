@@ -1,0 +1,1 @@
+﻿    ∇ zZz←NLSIZE nNn[1]   ⍝Gives sorted sizes of variables (⍵=2) or functions (⍵=3)[2]   [3]    zZz←⎕NL nNn[4]    zZz←(0=('nNn' OVER 'zZz')MATIOTA zZz)⌿zZz[5]    zZz←((⍕(⎕SIZE zZz)∘.+,0),' ',zZz)[⍒⎕SIZE zZz;]    ∇

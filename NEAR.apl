@@ -1,0 +1,1 @@
+﻿    ∇ Z←L NEAR P[1]   ⍝Give the distance from point at x,y ⍵ to line at x1,y1,x2,y2 ⍺[2]   ⍝Thanks for Wikipedia, of course (https://en.wikipedia.org/wiki/Distance_from_a_point_to_a_line)[3]   ⍝B. Compton, 12 Sep 2017[4]   [5]   [6]   [7]    Z←(|((P[1]×-/L[4 2])-(P[2]×-/L[3 1]))+(×/L[2 3])-×/L[1 4])÷(((-/L[4 2])*2)+(-/L[3 1])*2)*.5    ∇

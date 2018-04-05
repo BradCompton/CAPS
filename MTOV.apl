@@ -1,0 +1,1 @@
+﻿    ∇  Z←A MTOV B[1]    ⍝Converts character matrix ⍵ to ⍺-delimited vector[2]    ⍝ If the left argument is omitted, ⎕TCNL is used as the delimiter[3]    →(B←''⍴(⎕STPTR'Z A B')⎕CALL MTOV∆OBJ)↓0[4]    ⎕ERROR(1 2 3⍳B)⊃'WS FULL' 'LENGTH ERROR' 'RANK ERROR' 'DOMAIN ERROR'[5]    ⍝ Copyright (c) 1988, 1994 by Jim Weigang    ∇

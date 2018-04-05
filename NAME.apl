@@ -1,0 +1,1 @@
+﻿    ∇ Z←A NAME X[1]   ⍝Return value of ⍵ if it exists (preceeded by ⍺), otherwise ''[2]   ⍝B. Compton, 5 Mar 2013[3]   [4]   [5]    ⍎(0=⎕NC'A')/'A←'''''[6]    Z←''[7]    →(0=⎕NC X)/0[8]    Z←A,FRDBL⍕⍎X    ∇
