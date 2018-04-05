@@ -1,0 +1,1 @@
+﻿    ∇ SCRIPTRUN X;I[1]   ⍝Run SCRIPT commands ⍵ locally[2]   ⍝B. Compton, 22 Sep 2014, from CAPSRUN[3]   [4]   [5]   [6]    ⎕←'--- Starting local script run, ',NOW,' ---' ⋄ FLUSH[7]    I←0[8]   L1:→((1↑⍴X)<I←I+1)/L2           ⍝For each metric,[9]    ⍎X[I;][10]   →L1[11]  [12]  L2:⎕←'--- Script run is finished, ',NOW,' ---' ⋄ FLUSH    ∇

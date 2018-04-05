@@ -1,0 +1,1 @@
+﻿    ∇ Z←V STATION S;X;H;head;I[1]   ⍝Read data for station ⍵ and return in variables ⍺[2]   ⍝Temporary, for debugging HA[3]   ⍝B. Compton, 31 Mar 2015[4]   [5]   [6]    X←MATIN 'g:\CAPSdocs\Betsy\HA\CAPSRegFull-vFinal\Data\gauges3a.txt'[7]    H←MATRIFY head[8]    I←X[;H COL 'station']⍳S[9]    Z←(FRDBL¨↓V),[1.5](MV,X[I;])[1+H MATIOTA V]    ∇

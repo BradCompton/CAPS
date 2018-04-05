@@ -1,0 +1,1 @@
+﻿    ∇ Z←STRIP F;S[1]   ⍝Strip path and extension from filename ⍵[2]   ⍝13 Sep 2010: Don't confuse ..\path with .extension[3]   ⍝5 Feb 2018: work properly with paths that have dots in them (2017-18 Plague of Squirrels--I killed #10 halfway through this comment)[4]   [5]   [6]   [7]    S←⌽^\⌽F≠'\'[8]    Z←(⌽^\'\'≠⌽F)/F←(^\((~S)∨'.'≠F)∨S^(1⌽S^F='.')∨¯1⌽S^F='.')/F    ∇

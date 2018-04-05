@@ -1,0 +1,1 @@
+﻿    ∇ SETRESULT A;I[1]   ⍝Set result path in open CAPS 1.0 .CML file to <existing path>\⍵[2]   ⍝B. Compton, 21 Nov 2007[3]   [4]   [5]    I←XMLFIND 'model.workspace.std_inputs.input type="',(⍕3),'".path'[6]    ((⊃index[I;2]),A) XMLREPLACE I    ∇

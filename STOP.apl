@@ -1,0 +1,1 @@
+﻿    ∇ STOP[1]   [2]   ⎕ELX←'⎕DM'[3]   ⎕ERROR 'Stopped by STOP at ',⎕SI[2;]    ∇

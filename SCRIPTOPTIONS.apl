@@ -1,0 +1,1 @@
+﻿    ∇ SCRIPTOPTIONS O;NO;No;no;YES;Yes;yes[1]   ⍝Process options ⍵ for SCRIPT functions[2]   ⍝B. Compton, 3 Oct 2014[3]   [4]   [5]   [6]    NO←No←no←~YES←Yes←yes←1[7]    O←'/' MATRIFY '.=.←' TEXTREPL ⊃O[8]    ⍎O    ∇

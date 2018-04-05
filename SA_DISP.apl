@@ -1,0 +1,1 @@
+﻿    ∇ SA_DISP X;N;Z[1]   [2]    Z←(' ',⎕AV[128])[1+1⊃X][3]    ⍝Z←(⎕AV[1+99 103])[1+1⊃X]       ⍝Use webdings[4]   [5]    Z←Z OVER '' OVER 'Iteration #',⍕3⊃X[6]    Z←Z OVER 'Score = ',HITOLOW⍕2⊃X[7]   ⍝ Z←Z OVER 20⍴' '[8]   [9]    Z NWRITEe PATH 'sa.txt'    ∇

@@ -1,0 +1,1 @@
+﻿    ∇ SETTILE;T[1]   ⍝Set block so THISBLOCK gives correct READ/WRITE coordinates[2]   ⍝block must have already been set, presumably in BLOCKCALL[3]   ⍝A better alternative to the old noread/READ nonsense[4]   ⍝B. Compton, 22 Jan 2014[5]   [6]   [7]    ffile←''[8]    ifchat←0[9]    T←THISBLOCK    ∇

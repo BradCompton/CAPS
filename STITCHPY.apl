@@ -1,0 +1,1 @@
+﻿    ∇ Z←STITCHPY X[1]   ⍝Create pastable line to stitch grids named in ⍵[2]   ⍝B. Compton, 17 Nov 2014[3]   [4]   [5]   [6]    Z←FRDBL¨↓MATRIFY X[7]    Z←(⊂'.\./') TEXTREPL¨Z[8]    Z←MIX (⊂'stitchpy('''),¨Z,¨(⊂''', '''),¨Z,¨⊂'-s'', reference = reference)'    ∇

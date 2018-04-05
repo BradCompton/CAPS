@@ -1,0 +1,1 @@
+﻿    ∇ Z←SETNULL A[1]   ⍝Return MV if 1⊃⍵, otherwise 2⊃⍵[2]   ⍝B. Compton, 30 Sep 2014[3]   ⍝6 Oct 2014: rearrange arguments for clarity[4]   [5]   [6]   [7]    ⎕ERROR(2≠⍴,A)/'Error: setnull requires 2 right arguments'[8]    Z←MVREP (2⊃A) (1⊃A)    ∇

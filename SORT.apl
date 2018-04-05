@@ -1,0 +1,1 @@
+﻿    ∇ Z←SORT X[1]   ⍝Sort vector ⍵[2]   [3]    Z←X[⍋X]    ∇

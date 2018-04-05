@@ -1,0 +1,1 @@
+﻿    ∇ RUNTEST;∆X;∆I;∆T[1]   [2]    ∆X←VTOM ⎕TCNL,test2[3]    ∆I←0[4]   L1:→((1↑⍴∆X)<∆I←∆I+1)/0[5]    ⎕←(6⍴' '),FRDBL ∆X[∆I;] ⋄ FLUSH[6]    ⍎∆X[∆I;][7]    →L1    ∇

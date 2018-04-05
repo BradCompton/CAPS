@@ -1,0 +1,1 @@
+﻿    ∇ Z←STOPS[1]   ⍝Return names of functions with ⎕STOP set[2]   ⍝B. Compton, 11/12/11[3]   [4]   [5]   [6]    Z←(⊃,/0≠⍴¨⎕STOP¨↓Z)⌿Z←((⌽RJUST ⎕NL 3)[;1]≠'c')⌿⎕NL 3    ∇

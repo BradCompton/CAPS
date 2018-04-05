@@ -1,0 +1,1 @@
+﻿    ∇ Z←T SEARCH D[1]   ⍝Give logistic search distance for logistic curve ⍵ given tolerance ⍺[2]   [3]    ⍎(0=⎕NC'T')/'T←threshold'[4]    D←(¯2↑1 1,⍴D)⍴D[5]    Z←⌈D[;1]+-D[;2]×⍟(¯1+÷1-T)    ∇

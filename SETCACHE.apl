@@ -1,0 +1,1 @@
+﻿    ∇ SETCACHE N[1]   ⍝Turn grid server caching on (⍵=1) or off (⍵=0)[2]   ⍝But stay in localmode if cluster=0![3]   ⍝B. Compton, 10 Sep 2013[4]   ⍝20 Mar 2014: don't turn off caching when running in local mode[5]   [6]   [7]   [8]    activeconnection[4]←N∨~cluster    ∇

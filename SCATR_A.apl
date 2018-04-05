@@ -1,0 +1,1 @@
+﻿    ∇ Z←A SCATR_A B;aplc[1]   ⍝Do scattered indexed replacement using APL version (allows nested arrays). ⍺[ (1⊃⍵)[;1] ; (1⊃⍵)[;2] ] ← 2⊃⍵[2]   ⍝B. Compton, 9 Jul 2012[3]   [4]    aplc←1[5]    Z←A SCATR B    ∇

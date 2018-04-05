@@ -1,0 +1,1 @@
+﻿    ∇ Z←A SCATI_A B;aplc[1]   ⍝Do scattered indexing using APL version (allows nested arrays). ⍺[ ⍵[;1] ; [⍵;2] ][2]   ⍝B. Compton, 26 Jun 2012[3]   [4]   [5]    aplc←1[6]    Z←A SCATI B    ∇

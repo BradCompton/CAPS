@@ -1,0 +1,1 @@
+﻿    ∇ Z←SHOWFLOW F[1]   ⍝Show flow direction for flow grid ⍵[2]   [3]    F←0 MVREP F[4]    F←F+256×F=0[5]    Z←(↓MATRIFY '→ \ ↓ / ← ⍀ ↑ ⌿ .')[1+2⍟F][6]    Z←RC Z[7]    ⍝Z←(↓MATRIFY 'E SE S SW W NW N NE')[1+2⍟F]    ∇

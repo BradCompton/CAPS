@@ -1,0 +1,1 @@
+﻿    ∇ Z←SORTMAT X;I[1]   ⍝Sort table ⍵ (with row & column headers)[2]   [3]   [4]    Z←X[1,1+⍋⌊/1 1↓X;][5]    Z←Z[;1,1+⍋⌊⌿1 1↓Z]    ∇

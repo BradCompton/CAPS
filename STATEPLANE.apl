@@ -1,0 +1,1 @@
+﻿    ∇ STATEPLANE;X[1]   ⍝Write stateplane index to easting and northing[2]   ⍝Read source grid first to set extent[3]   ⍝B. Compton, 10 Oct 2007[4]   [5]   [6]    X←WINDOW[3]+(CELLSIZE÷2)+WINDOW[2 1]⍴CELLSIZE×¯1+⍳WINDOW[1][7]    X WRITE PATH 'easting'[8]    X←WINDOW[4]+(CELLSIZE÷2)+⍉WINDOW[1 2]⍴CELLSIZE×¯1+⍳WINDOW[2][9]    X WRITE PATH 'northing'    ∇

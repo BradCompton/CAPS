@@ -1,0 +1,1 @@
+﻿    ∇ ROWCOL;X[1]   ⍝Write rows and cols grids for current extent[2]   ⍝Read source grid first to set extent[3]   ⍝B. Compton, 31 Aug 2010, from STATEPLANE[4]   [5]   [6]    X←⍉WINDOW[1 2]⍴⍳WINDOW[2][7]    X WRITEGRID pathS PATH 'rows'[8]    X←WINDOW[2 1]⍴⍳WINDOW[1][9]    X WRITEGRID pathS PATH 'cols'    ∇

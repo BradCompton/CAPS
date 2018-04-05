@@ -1,0 +1,1 @@
+﻿    ∇ Z←A ROVER B[1]   Z←⌽(⌽A)OVER ⌽B    ∇
