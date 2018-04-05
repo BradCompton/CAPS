@@ -1,0 +1,1 @@
+﻿    ∇ ⍙Z←⍙A IFERRIN ⍙X;⎕ELX[1]   ⍝Execute ⍵ and return ⍺ if there's an error, otherwise ⍳0[2]   [3]    ⍙Z←⍙A[4]    ⎕ELX←'→0'[5]    ⍎⍙X[6]    ⍙Z←⍳0    ∇

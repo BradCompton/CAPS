@@ -1,0 +1,1 @@
+﻿    ∇ Z←GETREPSFN F;T;Q[1]   ⍝Reads repsfn: function from metric ⍵ to be used in xREPS function[2]   ⍝Currently only implemented for TABLEREPS; will add to others as needed[3]   ⍝B. Compton, 2 Jun 2011[4]   [5]   [6]    T←(Q←(∨\T ⎕SS 'repsfn:')/T←⎕VR TOUPPER F)⍳⎕TCNL[7]    →(0∊⍴Z←Q)/0[8]    Z←¯1↓7↓T↑Q[9]    Z←FRDBL (+/^\Z≠'⍝')↑Z    ∇

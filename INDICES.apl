@@ -1,0 +1,1 @@
+﻿    ∇ Z←INDICES X[1]   ⍝Return indices into nonzero cells of matrix ⍵[2]   ⍝B. Compton, 12 Oct 2010[3]   [4]   [5]    Z←(,X≠0)⌿(,⍉(⌽⍴X)⍴⍳1↑⍴X),[1.5],(⍴X)⍴(⍳1↓⍴X)    ∇

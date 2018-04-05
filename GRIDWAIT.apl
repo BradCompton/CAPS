@@ -1,0 +1,1 @@
+﻿    ∇ GRIDWAIT A[1]   ⍝Set global gridwait for task manager when gridio started at ⍵ and has just finished[2]   ⍝B. Compton, 2 May 2011[3]   [4]   [5]    ⍎(0=⎕NC'gridwait')/'gridwait←0'[6]    gridwait←gridwait+⎕AI[2]-A    ∇

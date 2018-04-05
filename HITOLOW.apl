@@ -1,0 +1,1 @@
+﻿    ∇  Z←HITOLOW M[1]    ⍝Converts high minus signs (¯) in ⍵ to low minus signs (-)[2]    Z←(⍴M)⍴'/¯/-'TEXTREPL,M    ∇

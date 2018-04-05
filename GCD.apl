@@ -1,0 +1,1 @@
+﻿    ∇ Z←A GCD B[1]   ⍝Euclidean algorithm for Greatest Common Divisor of ⍺ and ⍵[2]   [3]    Z←A[4]    →(B=0)/0[5]    Z←B GCD B|A    ∇

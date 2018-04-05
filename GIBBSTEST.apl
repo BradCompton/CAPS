@@ -1,0 +1,1 @@
+﻿    ∇ Z←GIBBSTEST P;C[1]   ⍝Give traffic rates and P(kill) for animal length and velocity ⍵[2]   [3]   [4]   Z←'cars per day' 'per hr' 'per min' 'P(kill)'⍪(X),(ROUND X÷24),(ROUND X÷24×60),[1.5]5 ROUND P GIBBS X←10*⍳5[5]   C←'okay' 'minor' 'significant' 'death' 'severe death'[6]   Z←Z,(⊂'comment'),C    ∇

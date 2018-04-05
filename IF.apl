@@ -1,0 +1,1 @@
+﻿    ∇ Z←IF X;Y[1]   ⍝Script IF function. Return ⍵[2] if ⍵[1] is true, else ⍵[3].[2]   ⍝B. Compton, 30 Sep 2014[3]   ⍝6 Oct 2014: give error if wrong number of arguments[4]   [5]   [6]   [7]    ⎕ERROR(3≠⍴,X)/'Error: if requires 3 right arguments'[8]    Y←(1⌈⌈/2↑¨⍴¨X)⍴¨1↓X[9]    Z←((1⊃X)⌽[1](1⊃Y),[.5]2⊃Y)[2;;]    ∇

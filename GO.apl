@@ -1,0 +1,1 @@
+﻿    ∇ GO[1]   ⍝Start CAPS run in INI0[2]   [3]   ⍎⎕LX    ∇

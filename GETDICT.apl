@@ -1,0 +1,1 @@
+﻿    ∇ GETDICT;Q[1]   ⍝Get a lock on the scenarios directory and read the scenarios dictionary[2]   ⍝B. Compton, 22 Jun 2012[3]   ⍝27 Jun 2013: but don't create it.  Use CSAINIT for that.[4]   [5]   [6]   [7]    Q←LOCKFILE csedir[8]    dict dict_ ← GETTABLE csedir,'scenarios.txt'         ⍝Read dictionary[9]    ⎕ELX←2⊃Q    ∇

@@ -1,0 +1,1 @@
+﻿    ∇ INFECT G;X[1]   ⍝Test for infected Arc grids (non-square cells)[2]   ⍝B. Compton, 25 Oct 2013[3]   [4]   [5]   [6]   GRIDINIT ''[7]   SETWINDOW G[8]   :if TRY 'X←READBLOCK (⊂G),1000 2000 10 10'[9]      ⎕←'Grid ',G,' is infected (or missing or something).'[10]  :else[11]     ⎕←'Grid ',G,' seems to be okay.'[12]  :end    ∇

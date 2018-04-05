@@ -1,0 +1,1 @@
+﻿    ∇ Z←W INTERVALS N[1]   ⍝Return sequence of angles (in degrees) for a circle inscribed in window size ⍺, ⍵ revolutions[2]   ⍝Shapes that need full 360∘ rotation should have ⍵ = 1, those needing half-rotation (such as lines) use ⍵ = 0.5[3]   ⍝Subroutine of CLOCKFACE[4]   ⍝B. Compton, 22 Nov 2016[5]   [6]   [7]   [8]    Z←⌊.5+(360÷○W)×0,⍳⌊○W×N    ∇

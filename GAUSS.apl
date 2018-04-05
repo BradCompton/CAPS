@@ -1,0 +1,1 @@
+﻿    ∇ Z←H GAUSS X[1]   ⍝Give Gaussian rescaling of distance ⍵ given bandwidth ⍺[2]   ⍝Results are rescaled such that P(0)=0[3]   ⍝B. Compton, 17 Dec 2012[4]   [5]   [6]    Z←((0,H) ZDENSITY X)÷(0,H) ZDENSITY 0    ∇

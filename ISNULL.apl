@@ -1,0 +1,1 @@
+﻿    ∇ Z←ISNULL A[1]   ⍝Return 1 if ⍵ is MV[2]   [3]    Z←A=MV    ∇

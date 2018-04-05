@@ -1,0 +1,1 @@
+﻿    ∇ Z←GETPIDS X;Z;Q[1]   ⍝Return a list of PIDs running on computer ⍵[2]   ⍝B. Compton, 30 Jul 2014[3]   [4]   [5]   [6]    3 ⎕CMD 'pslist \\',X,' > ',Q←pathA,'zzpslist',(FRDBL 15 0⍕?1E15),'.tmp'[7]    Z←⊃,/NUM¨2↓(0 MATIN Q)[;2][8]    NDROP Q    ∇
