@@ -1,0 +1,1 @@
+﻿    ∇ M WARN Q;F[1]   ⍝Add warning ⍺ to warnings if ⍵ is not empty[2]   [3]    →(0∊⍴Q)/0[4]    ⍎(0=⎕NC'M')/'M←'''''[5]    F←'' ⋄ ⍎(0≠⎕NC'fn')/'F←''['',fn,''] '''[6]    Q←(F,M) OVER ' ',' ',' ',⍕Q[7]    Q←((-^/Q[2;]=' '),0)↓Q[8]    ⍎(0=⎕NC'warnings')/'warnings←0 0⍴'''''[9]    warnings←warnings OVER Q    ∇

@@ -1,0 +1,1 @@
+﻿    ∇ Z←XY X[1]   ⍝Give numeric x,y from ArcMap's fucked up rendition with commands and 'm's, and round to the nearest meter[2]   ⍝B. Compton, 11 Dec 2017[3]   [4]   [5]   [6]    Z←0 ROUND ⎕FI '.,..m. ' TEXTREPL X     ∇

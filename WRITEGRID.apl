@@ -1,0 +1,1 @@
+﻿    ∇ Z←X WRITEGRID G;H[1]   ⍝Write grid ⍵[2]   ⍝This version is just a cover for WRITEBLOCK[3]   ⍝B. Compton, 1 Nov 2013 (old version → ∆WRITEGRID)[4]   [5]   [6]   [7]    X WRITEBLOCK (⊂G),1 1,WINDOW[2 1]    ∇

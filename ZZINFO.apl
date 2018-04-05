@@ -1,0 +1,1 @@
+﻿    ∇ ZZINFO;X;B;C;head[1]   [2]   [3]   [4]   X←MATIN 'D:\TEMP\INFO.TXT'[5]   X←X[⍋X;][6]   B←∨/X[;1 2]≠0⍪¯1 0↓X[;1 2][7]   C←B\(B pMIN X[;3])≠B pMAX X[;3][8]   ⎕←+/C[9]   [10]  head←1↓⎕TCHT MTOV ',' MATRIFY 'B,C,',head[11]  (B,C,X) TMATOUT 'D:\TEMP\INFO2.TXT'    ∇

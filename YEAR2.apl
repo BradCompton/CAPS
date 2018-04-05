@@ -1,0 +1,1 @@
+﻿    ∇ Z←YEAR2 Y;T[1]   ⍝Give year for current year+⍵; use year if ⍵=0[2]   [3]   Z←FRDBL ,'ZI3'⎕FMT T←1↑(Y=0)↓(year+Y),year[4]   ⍎(T≥1000)/'Z←⍕T'[5]       ∇

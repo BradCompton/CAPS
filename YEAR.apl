@@ -1,0 +1,1 @@
+﻿    ∇ Z←YEAR[1]   [2]   Z←(year≠0)/FRDBL ,'ZI3'⎕FMT year[3]   ⍎(year≥1000)/'Z←⍕year'    ∇

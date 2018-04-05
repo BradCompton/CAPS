@@ -1,0 +1,1 @@
+﻿    ∇ Z←WINDOW[1]   ⍝Return the current grid window[2]   ⍝Takes the place of the old global variable 'header'[3]   ⍝B. Compton, 9 Sep 2013[4]   [5]   [6]   [7]    Z←referencewindow    ∇

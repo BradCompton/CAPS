@@ -1,0 +1,1 @@
+﻿    ∇ XMLCLEAR;S[1]   [2]    S←⎕EX 'xml index i tags rows disp'    ∇

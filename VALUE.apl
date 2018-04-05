@@ -1,0 +1,1 @@
+﻿    ∇ Z←D VALUE V[1]   ⍝Return value of variable ⍵, default ⍺ (default = 0) if it doesn't exist[2]   ⍝B. Compton, 9 Jul 2012[3]   [4]   [5]   [6]    ⍎(0=⎕NC'D')/'D←0'[7]    Z←D[8]    →(0=⎕NC V)/0[9]    Z←⍎V    ∇

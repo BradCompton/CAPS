@@ -1,0 +1,1 @@
+﻿    ∇ WHINE X[1]   ⍝Display ⍵ if global whine[2]   [3]    →(0=⎕NC'whine')/0[4]    →(~whine)/0[5]    ⎕←X[6]    FLUSH    ∇

@@ -1,0 +1,1 @@
+﻿    ∇ F WRITE2LOG X;L[1]   ⍝Write ⍵ to log file ⍺[2]   ⍝10 Nov 2017 (from LOG, vastly simplified)[3]   [4]   [5]   [6]    L←LOCKFILE F[7]    :if IFEXISTS F[8]       X NAPPEND F[9]    :else[10]      X NWRITE F[11]   :end[12]   UNLOCKFILE L    ∇
